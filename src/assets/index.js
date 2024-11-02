@@ -16,11 +16,11 @@ import devops from "./ser/devops.png";
 import comp from "./ser/comp.png";
 
 
-import rce from './works/rce.gif'
-import  jobbox from './works/jobbox.gif'
-import tictac from './works/tictac.gif'
-import alumni from './works/alumni.gif'
-import facemask from './works/facemask.gif'
+import rce from './works/rce.jpg'
+import  jobbox from './works/jobbox.jpg'
+import tictac from './works/tictac.jpg'
+import alumni from './works/alumni.png'
+import facemask from './works/facemask.png'
 import rain from './works/rain.gif'
 import portfolio from './works/portfolio.gif'
 
@@ -54,7 +54,7 @@ import pythoncer from './cert/python_cer.png'
 import nse1 from './cert/NSE1_cer.png'
 import nse2 from './cert/NSE2_cer.png'
 import cer from './cert/cer.png'
-
+import cp from './cert/cp_cer.png'
 
 import gdsc from './exp/gdsc.png'
 
@@ -115,7 +115,7 @@ export {
   nse1,
   nse2,
   cer,
-
+  cp,
   gdsc,
 
 };

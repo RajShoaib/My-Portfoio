@@ -41,7 +41,8 @@ import {
   nse1,
   nse2,
   cer,
-
+  cp,
+  
   gdsc,
 
 } from "../assets";
@@ -53,11 +54,11 @@ import { FaUser, FaProjectDiagram, FaLaptopCode, FaEnvelope } from 'react-icons/
 export const about = "I am a tech enthusiast and problem solver with a passion for programming and design.\n"+
                       "I love to create and build things that are meaningful and impactful.\n\n"+
 
-                      "I was born and raised in Assam.\n"+
-                      "I have completed my graduation in B.sc(Hons)CBCS Computer Science from L.C.B College(Guwahati)\n"+
-                      "and I am currently pursuing Master of Computer Applications(MCA) at Tezpur University.\n\n"+
+                      "I was born and raised in Jharkhand.\n"+
+                      "I have completed my diploma in Civil Engineering from All Saints' College of Engineering (Bhopal)\n"+
+                      "and I am currently pursuing Bachelor of Technology from Computer Science & Engineering at RGPV University.\n\n"+
                       
-                      "I started my journey of programming by learning C++ as a language which created my interest in Problem Solving.\n"+
+                      "I started my journey of programming by learning C++ as a lannguage which created my interest in Problem Solving.\n"+
                       "Currently I am trying competitive programming and solving problems on LeetCode.."
 
 export const navLinks = [
@@ -93,7 +94,7 @@ const services = [
     icon: back,
   },
   {
-    title: "Devops",
+    title: "Developer",
     icon: devops,
   },
   {
@@ -139,27 +140,27 @@ const technologies = [
       name: "Tailwind",
       icon: tailwind,
   },
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-  },
+  //{
+    //name: "Bootstrap",
+    //icon: bootstrap,
+  //},
 
-  {
-    name: "Flask",
-    icon: flask,
-  },
-  {
-    name: "Django",
-    icon: django,
-  },
-  {
-    name: "Express",
-    icon: express,
-  },
-  {
-    name: "NodeJS",
-    icon: nodejs,
-  },
+  //{
+    //name: "Flask",
+    //icon: flask,
+  //},
+ // {
+   // name: "Django",
+    //icon: django,
+  //},
+ // {
+   // name: "Express",
+    //icon: express,
+  //},
+  //{
+    //name: "NodeJS",
+    //icon: nodejs,
+  //},
 
   {
     name: "Mysql",
@@ -171,210 +172,233 @@ const technologies = [
   },
   
  
-  {
-    name: "PostgreSql",
-    icon: postgresql,
-  },
+ // {
+   // name: "PostgreSql",
+    //icon: postgresql,
+  //},
   {
     name: "Linux",
     icon: linux,
   },
-  {
-    name: "Bash",
-    icon: bash,
-  },
+  //{
+    //name: "Bash",
+    //icon: bash,
+  //},
   {
     name: "Git",
     icon: git,
   },
-  {
-    name: "Docker",
-    icon: docker,
-  },
+ // {
+   // name: "Docker",
+    //icon: docker,
+  //},
 ];
 
 const experiences = [
   {
-    title: "Core Development Member",
-    company_name: "GDSC Tezpur University",
+    
+    title: "Bachelor Of Technology, RGPV Bhopal",
+    company_name: "Shri Ram Institute Of Technology, Jabalpur, Madhya Pradesh",
     icon: gdsc,
     iconBg: "#013247",
-    date: "Aug 2023 - June 2024",
+    date: "2022 - 2025 | Pursuing",
     points: [
-      "Participated in a team-based project, working with fellow developers to design and implement the GDSC Tezpur University website,",
-      "Applied proficiency in front-end technologies (such as HTML, CSS, JavaScript, React)",
-      "Utilized Git for version control, managing code changes, and contributing to project documentation"
+    ],
+  },
+  {
+    title: "Diploma from Civil, RGPV Bhopal",
+    company_name: "All Saints' College Of Engineering, Bhopal, Madhya Pradesh",
+    icon: gdsc,
+    iconBg: "#013247",
+    date: "2018 - 2022 | Completed",
+    points: [
+    ],
+  },
+  {
+    title: "Intermediate, CBSE",
+    company_name: "Jawahar Navodaya Vidyalaya, Bokaro, Jharkhand",
+    icon: gdsc,
+    iconBg: "#013247",
+    date: "2012 - 2014 | Completed",
+    points: [
+    ],
+  },
+  {
+    title: "Matriculation, CBSE",
+    company_name: "Jawahar Navodaya Vidyalaya, Bokaro, Jharkhand",
+    icon: gdsc,
+    iconBg: "#013247",
+    date: "2012 | Completed",
+    points: [
     ],
   },
 ];
 
+
+
 const certifications = [
   {
     name:
-      "Google cloud",
+      "TalentNext on Java Full Stack Course by Wipro",
     image: gcp,
     icon: cer,
-    url: 'https://www.cloudskillsboost.google/public_profiles/b82cdb38-86d0-4db0-a010-a4808ea5b9bc'
+    url: 'https://drive.google.com/file/d/1PW_RAeuuxeh-jhyqnylYNHMiinfRjlmn/view?usp=sharing'
+   
   },
   {
     name:
-      "DSA",
+      "Cisco Virtual Internship Program on Cybersecurity",
     image: dsa,
     icon: cer,
-    url: 'https://drive.google.com/file/d/1eTIk37rO4Qt-hTHwJFCrpE-YK96dvtlC/view'
+    url: 'https://drive.google.com/file/d/1OsrJZvNF_amOQH5y2rjotTu21lBhFg_5/view?usp=sharing'
   },
   {
     name:
-    "Java",
+    "OOP in C++",
     image: javacer,
     icon: cer,
-    url: 'https://drive.google.com/file/d/19_4WzlEAfSTFm8XYCLM97inMzzD-eSpp/view'
+    url: 'https://drive.google.com/file/d/1QRIkW0U9mzjehJiWswxh4Trp8X15BExW/view?usp=sharing'
   },
   {
     name:
-      "Python",
+      "DSA using Java",
     image: pythoncer,
     icon: cer,
-    url: 'https://drive.google.com/file/d/1ZXYjT2AezXiGNsiFlMVXdD_-PRHiEmxw/view'
+    url: 'https://drive.google.com/file/d/1C0wgcvdlcaoBml5T63bcd8BLJCVtrBoh/view?usp=sharing'
   },
   {
     name:
-      "NSE 1",
+      "SQL (Intermediate)",
     image: nse1,
     icon: cer,
-    url: 'https://drive.google.com/file/d/1-BilMhbbdWqIx5LC8KzbUwQRg9sZIW8M/view'
+    url: 'https://drive.google.com/file/d/1UfTSdVkkm37O5QtJQh3jXg4NifaL5HEy/view?usp=sharing'
   },
   {
     name:
-      "NSE 2",
+      "Research Paper Certificate",
     image: nse2,
     icon: cer,
-    url: 'https://drive.google.com/file/d/1BXRIQ-Sr3PAYTVd-mRp3KPwZS_hj3ciN/view'
+    url: 'https://drive.google.com/file/d/10_LFMkLAAoRhMzXM2iYdF1Yb_nEjlnIH/view?usp=sharing'
+  },
+  {
+    name:
+      "C++ Programming",
+    image: cp,
+    icon: cer,
+    url: 'https://drive.google.com/drive/folders/1kT6mX429XnRZMWz8Bbt9GANvd7nBRTx9'
   },
 ];
 
 const projects = [
   {
-    name: "Daily Code:Remote Code Execution",
+    name: "Customer Sementation using ML",
     description:
-      `Remote Code Execution allows user to access a variety of coding problems and submit solutions and check output against predefined test cases 
-      and also can analyze complexity using Gemini.`,
+      `We developed a customer segmentation framework that combines traditional clustering algorithms with advanced
+machine learning techniques. By integrating supervised and unsupervised learning, I enhanced segmentation
+accuracy, enabling personalized marketing strategies and improved customer experiences.
+`,
     tags: [
       {
-        name: "nextjs",
+        name: "Python",
         color: "blue-text-gradient",
       }, 
       {
-        name: "Firebase",
+        name: "Skitlearn",
         color: "green-text-gradient",
       },
       {
-        name: "Gemini",
+        name: "BDSCAN",
         color: "pink-text-gradient",
       },
       {
-        name: "Judge0",
+        name: "Kmeans",
         color: "blue-text-gradient",
       },
     ],
     image: rce,
-    source_code_link: "https://github.com/Ripunjay42/remote-code-execution.git",
-    website_link: 'https://daily-code-pi.vercel.app',
+    source_code_link: "https://github.com/RajShoaib/Customer-Segmentation-using-hybrid-model",
+    website_link: '#',
   },  
   {
-    name: "Job BOX:Job Searching Platform",
+    name: "Car Rental System",
     description:
-      `job search platform with Enhanced performance through client and server pagination, Implemented efficient data prefetching, 
-      Admin panel for manage content, Responsive UI design.`,
+      `Creating a car rental system involves designing a platform that allows users to rent cars based on availability, location, and other preferences.`,
     tags: [
       {
-        name: "nextjs",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "VS Code",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "postgresql",
-        color: "green-text-gradient",
-      },
+      
+      
     ],
     image: jobbox,
-    source_code_link: "https://github.com/Ripunjay42/JobBox.git",
-    website_link: 'https://jobbox-gules.vercel.app/',
+    source_code_link: "https://github.com/RajShoaib/Car-Rental-System",
+    website_link: '#',
   },
   {
-    name: "TicTacToe with chat functionality",
+    name: "ATM Interface Using java",
     description:
-      "Multiplayer Tic Tac Toe game with authentication and real-time chat functionality. Players can chat in real-time while playing the game using the Stream API for messaging.",
+      "This is a java programming and also console-based application with five different classes. In order to use the system, the user must enter his or her user ID and pin when it starts. Once the details are entered successfully, ATM functionality is unlocked.",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "VS Code",
         color: "green-text-gradient",
       },
-      {
-        name: "nodejs",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "StreamChat",
-        color: "blue-text-gradient",
-      },
+      
     ],
     image: tictac,
-    source_code_link: "https://github.com/Ripunjay42/Multiplayer_TicTacToe.git",
-    website_link: "https://tictactoe-multiplayer-silk.vercel.app/",
+    source_code_link: "https://github.com/RajShoaib/ATM-Interface",
+    website_link: "#",
   },
   {
-    name: "Alumni Information System ",
+    name: "Temperature Converter ",
     description:
-      "A web application that allows alumni to register, and an admin to review, update, and delete users. Additionally, admin can add events, and general users can visit the verified alumni.",
+      "The user will input a temperature in either Fahrenheit or Celsius and press a convert button. The converted temperature will then be displayed with the correct unit.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "Java Script",
         color: "pink-text-gradient",
       },
       {
-        name: "MySql",
+        name: "VS Code",
         color: "green-text-gradient",
       },
     ],
     image: alumni,
-    source_code_link: "https://github.com/Ripunjay42/alumni",
-    website_link: "https://alumni-info.vercel.app/",  
+    source_code_link: "https://github.com/RajShoaib/Temperature-Converter-Website",
+    website_link: "#",  
   },
   {
-    name: "Face mask detector",
+    name: "Login Page",
     description:
-      "The project is called the Face Mask Detection where it uses facial and object recognition to accurately distinguish those with or without masks. Employs TensorFlow and OpenCV to detect face masks.",
+      "A user centric, reponsive and animated login page using HTML ans CSS .",
     tags: [
       {
-        name: "django",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "sqlite3",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "python",
+        name: "VS code",
         color: "pink-text-gradient",
       },
       {
@@ -383,8 +407,8 @@ const projects = [
       },
     ],
     image: facemask,
-    source_code_link: "https://github.com/Ripunjay42/Facemask_detector",
-    website_link: "https://facemask-detector8.onrender.com/",  
+    source_code_link: "https://github.com/RajShoaib/Login-Page",
+    website_link: "#",  
   },
   {
     name: "Rainfall prediction app",
@@ -409,8 +433,8 @@ const projects = [
       },
     ],
     image: rain,
-    source_code_link: "https://github.com/Ripunjay42/Rainfall-prediction",
-    website_link: "https://rainfall-prediction8.onrender.com/",  
+    source_code_link: "#",
+    website_link: "#",  
   },
   // {
   //   name: "Personal portfolio",

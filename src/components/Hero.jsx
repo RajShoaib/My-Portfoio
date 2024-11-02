@@ -14,7 +14,7 @@ const Hero = () => {
   const roles = [
     { text: "Tech Enthusiast", icon: <FaLightbulb className="inline-block text-[#5eff6c] mr-2" /> },
     { text: "Problem Solver", icon: <FaTools className="inline-block text-[#5eff6c] mr-2" /> },
-    { text: "Fullstack Developer", icon: <FaLaptopCode className="inline-block text-[#5eff6c] mr-2" /> },
+    { text: "Java Developer", icon: <FaLaptopCode className="inline-block text-[#5eff6c] mr-2" /> },
   ];
 
   const [currentRole, setCurrentRole] = useState(0);
@@ -38,7 +38,7 @@ const Hero = () => {
           <div className="mr-2 flex flex-col lg:flex-row lg:items-left">
             <div>
               <h1 className={`${styles.heroHeadText} text-white`}>
-                Hi, I'm <span className="animate-rainbowText">Ripunjay</span>
+                Hi, I'm <span className="animate-rainbowText">Raja Shoaib</span>
               </h1>
               <p className={`${styles.heroSubText} mt-2 text-[#45e0e6] flex items-center`}>
                 {roles[currentRole].icon}

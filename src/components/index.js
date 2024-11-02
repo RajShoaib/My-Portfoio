@@ -19,5 +19,5 @@ export {
   Contact,
   EarthCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
 }

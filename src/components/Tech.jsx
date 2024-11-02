@@ -57,7 +57,7 @@ const Tech = () => {
   return (
     <div className={isMobile ? '' : 'container mx-auto'}>
       <div variants={textVariant()}>
-        <h5 className={`${styles.sectionHeadText}`}>Tech Stack.</h5>
+        <h5 className={`${styles.sectionHeadText}`}>My Skills.</h5>
       </div>
 
       <div
@@ -107,13 +107,13 @@ const Tech = () => {
           index={technologies.length}
           title="LeetCode"
           icon={leetcodeIcon}
-          links="https://leetcode.com/u/Ripunjay42/"
+          links="https://leetcode.com/u/shoaib913/"
         />
         <ServiceCard
           index={technologies.length + 1}
           title="CodeChef"
           icon={codechefIcon}
-          links="https://www.codechef.com/users/ripunjay42"
+          links="https://www.codechef.com/users/shoaib913"
         />
       </div>
     </div>

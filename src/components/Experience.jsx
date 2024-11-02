@@ -47,10 +47,10 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}`}>
-          I have worked on So far
+          Education is not the learning of facts, but the traning of the mind to think
         </p>
         <h2 className={`${styles.sectionHeadText}`}>
-          Work Experience.
+          My Education.
         </h2>
       </motion.div>
 

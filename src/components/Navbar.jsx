@@ -16,7 +16,7 @@ const Navbar = () => {
   const resumeLink = {
     id: 'resume',
     title: 'Resume',
-    url: 'https://drive.google.com/file/d/1GgtkrPsKERVkkUxn2GrA_xgi9sFWQTBK/view?usp=sharing',
+    url: 'https://drive.google.com/file/d/1yJd-AGm3Er42tGf51kHaohdtUqpy-dN6/view?usp=sharing',
   };
 
   useEffect(() => {
@@ -79,7 +79,7 @@ const Navbar = () => {
 
           <div className="flex gap-4">
               <a
-                href="https://www.linkedin.com/in/ripunjay-choudhury-83864524b/"
+                href="https://www.linkedin.com/in/rajashoaib/"
                 target="_blank"
                 className="group relative rounded-full border-[2px] border-[#915EFF] p-2 transition-transform duration-300 hover:shadow-violet-700 hover:shadow-md hover:scale-105"
               >
@@ -89,7 +89,7 @@ const Navbar = () => {
                 </span>
               </a>
               <a
-                href="https://github.com/Ripunjay42"
+                href="https://github.com/RajShoaib"
                 target="_blank"
                 className="group relative rounded-full border-[2px] border-[#915EFF] p-2 transition-transform duration-300 hover:shadow-violet-700 hover:shadow-md hover:scale-105"
               >
